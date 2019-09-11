@@ -122,6 +122,33 @@ Solving_OOP_2_P1/fast:
 	$(MAKE) -f CMakeFiles\Solving_OOP_2_P1.dir\build.make CMakeFiles/Solving_OOP_2_P1.dir/build
 .PHONY : Solving_OOP_2_P1/fast
 
+TwoLinkedList.obj: TwoLinkedList.cpp.obj
+
+.PHONY : TwoLinkedList.obj
+
+# target to build an object file
+TwoLinkedList.cpp.obj:
+	$(MAKE) -f CMakeFiles\Solving_OOP_2_P1.dir\build.make CMakeFiles/Solving_OOP_2_P1.dir/TwoLinkedList.cpp.obj
+.PHONY : TwoLinkedList.cpp.obj
+
+TwoLinkedList.i: TwoLinkedList.cpp.i
+
+.PHONY : TwoLinkedList.i
+
+# target to preprocess a source file
+TwoLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles\Solving_OOP_2_P1.dir\build.make CMakeFiles/Solving_OOP_2_P1.dir/TwoLinkedList.cpp.i
+.PHONY : TwoLinkedList.cpp.i
+
+TwoLinkedList.s: TwoLinkedList.cpp.s
+
+.PHONY : TwoLinkedList.s
+
+# target to generate assembly for a file
+TwoLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles\Solving_OOP_2_P1.dir\build.make CMakeFiles/Solving_OOP_2_P1.dir/TwoLinkedList.cpp.s
+.PHONY : TwoLinkedList.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... Solving_OOP_2_P1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... TwoLinkedList.obj
+	@echo ... TwoLinkedList.i
+	@echo ... TwoLinkedList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OOP-2-P1/TwoLinkedList.cpp">
+			<Option target="Solving_OOP_2_P1"/>
+		</Unit>
+		<Unit filename="C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OOP-2-P1/TwoLinkedList.h">
+			<Option target="Solving_OOP_2_P1"/>
+		</Unit>
 		<Unit filename="C:/Users/Eduardo Medina/Desktop/ReposGit/Solving-OOP-2-P1/main.cpp">
 			<Option target="Solving_OOP_2_P1"/>
 		</Unit>

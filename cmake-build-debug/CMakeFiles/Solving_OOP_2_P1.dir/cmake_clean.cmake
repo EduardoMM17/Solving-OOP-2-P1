@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Solving_OOP_2_P1.dir/main.cpp.obj"
+  "CMakeFiles/Solving_OOP_2_P1.dir/TwoLinkedList.cpp.obj"
   "Solving_OOP_2_P1.pdb"
   "Solving_OOP_2_P1.exe"
   "Solving_OOP_2_P1.exe.manifest"
