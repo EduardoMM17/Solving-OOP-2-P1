@@ -20,7 +20,7 @@ public:
     void push_back_1(int);
     void push_back_2(int);
     void merge();
-    void getList(int);
+    std::string getList(int);
     bool is_Merged();
 
 };

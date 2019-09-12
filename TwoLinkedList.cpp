@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <sstream>
 #include "TwoLinkedList.h"
 
 
@@ -62,31 +63,49 @@ bool TwoLinkedList::is_Merged() {
     return isMerged;
 }
 
-void TwoLinkedList::getList(int optionToGet) {
-    std::string myStr;
+std::string TwoLinkedList::getList(int optionToGet) {
+    std::stringstream streamTheString;
+    std::string listOfIntButString;
+    std::string intButString;
     Node* aux1;
     if(optionToGet == 1){
         std::cout<<"\nThe values of the nodes from the first list are: \n";
         aux1 = Tail1;
         while(aux1 != nullptr){
-            std::cout<<aux1->value << std::endl;
+            streamTheString.clear();
+            streamTheString << aux1->value;
+            streamTheString >> intButString;
+            listOfIntButString += intButString;
+            listOfIntButString += " ";
             aux1 = aux1->next;
         }
+        return listOfIntButString;
     }
     else if(optionToGet == 2){
         std::cout<<"\nThe values of the nodes from the second list are: \n";
         aux1 = Tail2;
         while(aux1 != Tail1){
-            std::cout<<aux1->value << std::endl;
+            streamTheString.clear();
+            streamTheString << aux1->value;
+            streamTheString >> intButString;
+            listOfIntButString += intButString;
+            listOfIntButString += " ";
             aux1 = aux1->next;
+
         }
+        return listOfIntButString;
     }
     else{
         std::cout<<"\nThe values of the nodes from the merged list are: \n";
         aux1 = Tail;
         while(aux1 != nullptr){
-            std::cout<<aux1->value << std::endl;
+            streamTheString.clear();
+            streamTheString << aux1->value;
+            streamTheString >> intButString;
+            listOfIntButString += intButString;
+            listOfIntButString += " ";
             aux1 = aux1->next;
         }
+        return listOfIntButString;
     }
 }
