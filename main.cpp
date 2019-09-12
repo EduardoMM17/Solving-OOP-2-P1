@@ -10,6 +10,9 @@ int main() {
     TL1->push_back_1(40);
     TL1->push_back_2(30);
     TL1->merge();
-    //TL1->printTLL();
+    TL1->getList(1);
+    TL1->getList(2);
+    TL1->getList(0);
+
     return 0;
 }
